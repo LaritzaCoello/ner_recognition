@@ -1,26 +1,24 @@
-# ner_recognition
-Este proyecto describe la implementación de un API para la identificación de entidades nombradas en Español
-**API para el reconocimiento de entidades nombradas en Español**
+# API ner_recognition
+API para el reconocimiento de entidades nombradas en Español.
 
-**_Objetivo_**:
+## Objetivo:
+
  Reconocer entidades nombradas para oraciones en Español
 
-**_Uso_**
-
-_Prerequisitos_
+## Prerequisitos
 
 - Python instalado, versión 3.8.2 o superior .
 - Instalar librería Flask: `pip install Flask`
 - Instalar liberería Spacy y descargar el modelo 'es_core_news_sm': `pip install spacy && python -m spacy download es_core_news_sm`
 
-_**Ejecución del API**_
+## Ejecución del API
 
 1. Clonar este reporitorio en su computadora.
 2. Ubicarse en el directorio donde se encuentra el proyecto.
 3. Ejecutar la aplicación Flask :  `python app.py `
 4. El API se encontrará corriendo en `http://127.0.0.1:5000`
 
-**_Prueba_**
+## Uso y prueba
 
 Para realizar una prueba sobre este proyecto puede utilizar el siguiente ejemplo:
  ```
